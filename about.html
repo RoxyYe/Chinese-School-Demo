@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl"> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Chinese School Heerlen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img loading="lazy" src="logo1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">OVER ONS</a></li>
+                    <li><a href="course.html">CURSUSSEN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Over ons</h1>
+
+    </section>
+
+    <!-- About Us Content -->
+
+    <section class="about-us">
+         <div class="row">
+             <div class="about-col">
+                 <h1>Korte geschiedenis van onze school</h1>
+                 <p>Chinese School Heerlen bestaat al meer dan 30 jaar en heeft in die tijd diverse uitdagingen overwonnen. Hoewel de naam en locatie van de school meerdere keren zijn veranderd, is de toewijding aan het onderwijzen van de Chinese taal nooit afgenomen. Aanvankelijk onder de naam Henan Zhongwen Xuexiao, opgericht in 1987 door de Chinese Vereniging van Limburg, werd vooral Kantonees onderwezen. In 1998 kreeg de school een nieuwe leiding en werd de naam veranderd naar Mingde Chinese School, waarna het onderwijs in Mandarijn (Putonghua) werd geïntroduceerd. In 2012 nam de Commissie van Chinees onderwijs van de Vrouwenvereniging van Heerlen de leiding over en veranderde de naam in Chinese School Heerlen. Sinds 2015 wordt de school geleid door de Christelijke Gemeente van Maastricht, waarbij de naam ongewijzigd bleef. De school richt zich nu op het onderwijzen van Putonghua met leermateriaal uit China en besteedt ook aandacht aan de Chinese cultuur, tradities, geschiedenis en aardrijkskunde, zodat leerlingen niet alleen de taal leren, maar ook de rijke Chinese cultuur ontdekken.</p>
+                 <a href="contact.html" class="hero-btn red-btn">MEER WETEN?</a>
+             </div>
+             <div class="about-col">
+                 <img loading="lazy" src="picture11.jpg">
+             </div>
+         </div>
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <div class="row">
+            <div class="facilities-col">
+                <img loading="lazy" src="picture14.jpg">
+                <h3>Ons gebouw</h3>
+                <p>We beschikken over een ruim gebouw met meerdere klaslokalen en toiletten. Daarnaast hebben we een groot plein waar de kinderen tijdens de pauzes kunnen ontspannen.</p>
+            </div>
+            <div class="facilities-col">
+                <img loading="lazy" src="picture16.jpg">
+                <h3>Ons klaslokaal</h3>
+                <p>Onze klaslokalen zijn groot, goed geventileerd en goed verlicht om een optimale leeromgeving te creëren. We respecteren ieders persoonlijke ruimte, zodat onze leerlingen nooit op elkaar gepropt zullen zijn.</p>
+            </div>
+            <div class="facilities-col">
+                <img loading="lazy" src="picture13.jpg">
+                <h3>Ons lesmateriaal</h3>
+                <p>Wij werken met geverifieerd lesmateriaal aangeboden door HSK, een internationaal erkende organisatie voor het testen van de beheersing van de Chinese taal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>Over ons</h4>
+        <p>Chinese School Heerlen staat voor efficiëntie en kwaliteit in het onderwijzen van de Chinese taal en cultuur. Onze ervaren docenten en <br>gestructureerde aanpak zorgen voor een stimulerende leeromgeving waar elke leerling zijn of haar potentieel kan bereiken.</p>
+        <div class="icons">
+             <a href="https://www.facebook.com/HeerlenChineseSchool/" target="_blank"><i class="fa fa-facebook"></i></a>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+        
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";}
+        function hideMenu(){
+            navLinks.style.right = "-200px";}
+    </script>
+    
+</body>
+</html>
